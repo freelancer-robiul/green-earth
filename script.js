@@ -185,7 +185,7 @@ function handleAddToCart(button) {
   newCart.innerHTML = `
       
       <div
-            class="single-cart flex justify-between px-3 py-2 bg-[#F0FDF4] rounded-lg"
+            class="single-cart flex justify-between px-3 py-2 bg-[#F0FDF4] rounded-lg shadow-md"
             >
             <div class="cart-content">
               <h2 class="text-[14px] font-semibold">${name}</h2>

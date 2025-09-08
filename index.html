@@ -25,14 +25,14 @@
     <!-- Navbar  -->
     <header class="bg-[#15803D]">
       <div
-        class="header flex justify-between items-center w-11/12 mx-auto py-9"
+        class="header flex md:flex-row flex-col justify-between items-center w-11/12 mx-auto py-9"
       >
         <div class="logo">
           <h1 class="text-white text-2xl font-bold">Green Earth</h1>
         </div>
         <div class="menu">
           <ul
-            class="flex justify-center items-center gap-6 text-white text-base font-medium"
+            class="flex justify-center items-center gap-6 text-white text-base font-medium md:mt-0 mt-4"
           >
             <li>About</li>
             <li>Gallery</li>
@@ -41,7 +41,7 @@
         </div>
 
         <button
-          class="bg-[#FACC15] text-[#15803D] px-5 py-3 rounded-full text-[16px] font-medium"
+          class="bg-[#FACC15] text-[#15803D] px-5 md:py-3 py-2 md:mt-0 mt-4 rounded-full text-[16px] font-medium"
         >
           Plant a Tree
         </button>
@@ -50,12 +50,12 @@
     <!-- Navbar end  -->
 
     <!-- Banner Section  -->
-    <div class="banner-section bg-[#CFF0DC] flex justify-between items-center">
-      <div class="left-side h-full">
+    <div class="banner-section bg-[#CFF0DC] flex justify-between items-center md:py-0 py-4">
+      <div class="left-side h-full md:block hidden">
         <img src="./assets/hero-leaf1.png" alt="" />
       </div>
       <div class="center-content text-center">
-        <h1 class="text-[48px] font-bold mb-2">Plant a Tree, Grow a Future</h1>
+        <h1 class="md:text-[48px] text-[24px] font-bold mb-2">Plant a Tree, Grow a Future</h1>
         <p class="text-[16px] font-normal mb-6">
           Join our mission to plant 1 million trees and make the Earth greener
           for future generations.
@@ -66,7 +66,7 @@
           Get Involved
         </button>
       </div>
-      <div class="right-side h-full">
+      <div class="right-side h-full md:block hidden">
         <img src="./assets/hero-leaf2.png" alt="" />
       </div>
     </div>
@@ -77,7 +77,7 @@
       <h1 class="text-center mb-[40px] pt-[100px] text-[32px] font-semibold">
         Choose Your Trees
       </h1>
-      <div class="all-cards w-11/12 mx-auto flex justify-between gap-3">
+      <div class="all-cards w-11/12 mx-auto flex md:flex-row flex-col justify-between gap-3">
 
         <!-- Categories Area  -->
         <div
@@ -123,7 +123,7 @@
     <div class="about-section bg-[#f0fdf4] pb-[100px]">
         <h1 class="text-center mb-[40px] pt-[100px] text-[32px] font-semibold">About the Campaign</h1>
         <div class="about-content w-7/12 mx-auto">
-            <div class="about col-span-9 flex justify-center items-center gap-8">
+            <div class="about col-span-9 flex md:flex-row flex-col justify-center items-center gap-8">
                 <div class="left-image flex-1">
                   <img class="rounded-xl" src="./assets/about.png" alt="" />
                 </div>
@@ -148,16 +148,16 @@
     <!-- Our Impact Section  -->
      <div class="our-impact-section bg-[#cff0dc] text-center py-[100px]">
         <h1 class="text-[32px] font-semibold mb-10">Our Impact</h1>
-        <div class="our-impact w-11/12 mx-auto flex justify-between items-center gap-12">
-            <div class="impact-card p-10 bg-white rounded-lg w-[516px] shadow-xl">
+        <div class="our-impact w-11/12 mx-auto flex md:flex-row flex-col justify-between items-center gap-12">
+            <div class="impact-card p-10 bg-white rounded-lg md:w-[516px] w-[320px] shadow-xl">
                 <p class="text-green-700 text-[32px] font-semibold mb-3">500K+</p>
                 <p class="text-[16px] font-normal">Trees Planted</p>
             </div>
-            <div class="impact-card p-10 bg-white rounded-lg w-[516px] shadow-xl">
+            <div class="impact-card p-10 bg-white rounded-lg md:w-[516px] w-[320px] shadow-xl">
                 <p class="text-green-700 text-[32px] font-semibold mb-3">120+</p>
                 <p class="text-[16px] font-normal">Communities Involved</p>
             </div>
-            <div class="impact-card p-10 bg-white rounded-lg w-[516px] shadow-xl">
+            <div class="impact-card p-10 bg-white rounded-lg md:w-[516px] w-[320px] shadow-xl">
                 <p class="text-green-700 text-[32px] font-semibold mb-3">30+</p>
                 <p class="text-[16px] font-normal">Countries Reached</p>
             </div>
