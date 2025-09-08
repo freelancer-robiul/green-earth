@@ -27,7 +27,7 @@ const setupButton = (plants) => {
       newCardDiv.innerHTML = `
       
       <div
-              class="single-card md:w-[343px] w-full h-[425px] p-2 space-y-3 bg-white shadow-xl rounded-xl"
+              class="single-card card-3xl 2xl:w-[280px] md:w-[220px] w-full h-[425px] p-2 space-y-3 bg-white shadow-xl rounded-xl mt-0"
             >
             <img class="rounded-xl h-[200px] w-full object-cover" src="${plant.image}" alt="">
             <p class="plant-name text-[16px] font-semibold cursor-pointer">${plant.name}</p>
@@ -134,7 +134,7 @@ const displayPlants = (plants) => {
     const card = document.createElement("div");
 
     card.innerHTML = `
-      <div class="single-card md:w-[343px] w-full h-[425px] p-2 space-y-3 bg-white shadow-xl rounded-xl">
+      <div class="single-card card-3xl 2xl:w-[280px] md:w-[220px] w-full h-[425px] p-2 space-y-3 bg-white shadow-xl rounded-xl mt-0">
         <img class="rounded-xl h-[200px] w-full object-cover" src="${plant.image}" alt="">
         <p class="plant-name text-[16px] font-semibold cursor-pointer">${plant.name}</p>
         <p class="text-[12px] font-normal line-clamp-3">${plant.description}</p>
@@ -229,7 +229,7 @@ modal.id = "plant-modal";
 modal.className = "hidden fixed inset-0 flex justify-center items-center z-50";
 modal.innerHTML = `
   <div class="modal-overlay absolute inset-0 bg-black bg-opacity-20"></div>
-  <div class="modal-content relative z-50 pointer-events-auto bg-white p-5 rounded-lg shadow-xl w-[400px] max-w-full transition-transform duration-300 scale-95">
+  <div class="modal-content relative z-50 pointer-events-auto bg-white p-5 rounded-lg shadow-xl modal-3xl  2xl:w-[340px] w-[300px] transition-transform duration-300 scale-95">
     <button id="modal-close" class="absolute top-2 right-2 text-lg font-bold cursor-pointer">✕</button>
     <div id="modal-body"></div>
   </div>

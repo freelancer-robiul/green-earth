@@ -3,3 +3,16 @@
 .font-inter {
   font-family: "Inter", sans-serif;
 }
+
+/* Custom 1920px+ width for card */
+@media (min-width: 1920px) {
+  .card-3xl {
+    width: 300px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .modal-3xl {
+    width: 400px;
+  }
+}
