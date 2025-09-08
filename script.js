@@ -134,7 +134,7 @@ const displayPlants = (plants) => {
     const card = document.createElement("div");
 
     card.innerHTML = `
-      <div class="single-card w-[343px] h-[425px] p-2 space-y-3 bg-white shadow-xl rounded-xl">
+      <div class="single-card md:w-[343px] w-full h-[425px] p-2 space-y-3 bg-white shadow-xl rounded-xl">
         <img class="rounded-xl h-[200px] w-full object-cover" src="${plant.image}" alt="">
         <p class="plant-name text-[16px] font-semibold cursor-pointer">${plant.name}</p>
         <p class="text-[12px] font-normal line-clamp-3">${plant.description}</p>
