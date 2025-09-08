@@ -87,9 +87,7 @@
 
           <li id="all-trees" class="cursor-pointer p-2 hover:bg-green-700 hover:text-white rounded list-none text-black mb-4">All Trees</li>
 
-          <ul id="categories-ul" class="text-[16px] font-medium space-y-4">           
-            
-            <!-- <li class="cursor-pointer p-2 hover:bg-green-700 hover:text-white rounded"></li> -->
+          <ul id="categories-ul" class="text-[16px] font-medium space-y-4">  
           </ul>
         </div>
         <!-- Categories Area  end -->
@@ -97,7 +95,7 @@
 
         <!-- Card Area  -->
         <div id="parent-card"
-          class="cards col-span-9 grid grid-cols-3 justify-center items-center gap-3"
+          class="cards col-span-9 grid grid-cols-3 justify-center items-center gap-4"
              >
             <!-- Single Card -->
           <!-- <div
@@ -108,30 +106,42 @@
           <p class="text-[12px] font-normal">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam eveniet quas laboriosam, pariatur labore animi alias, odit dolor dolorum earum corporis facilis nobis modi harum minima sed veritatis quisquam? Veniam quam quisquam animi autem nesciunt ducimus aliquid modi porro similique ipsam placeat iusto libero molestias aperiam consectetur fuga eveniet, earum dolorum doloribus quos. Omnis provident consectetur sint asperiores expedita et, reprehenderit nisi possimus. Blanditiis, repellendus. asperiores. Quo.</p>
           <p class="text-[14px] font-normal bg-[#dcfce7] rounded-full inline-block px-3 py-2">Medicinal Trees</p>
           <p class="p-2 text-[14px] font-normal">Price: <span>500</span> Tk.</p>
-          <button
-          class="bg-green-700 text-white px-5 py-2 w-full rounded-full text-[16px] font-medium cursor-pointer"
+          <button id="btn-add-to-cart"
+          class="btn-button bg-green-700 text-white px-5 py-2 w-full rounded-full text-[16px] font-medium cursor-pointer"
             >
           Add to Cart
             </button>
         </div>   -->
         <!-- Single Card end -->       
         </div>
-        <div
-          class="your-cart col-span-2 bg-white p-2 w-[250px] border-2 border-red-500"
+        <!-- Card Area end -->
+
+        <!-- My Cart Section  -->
+        <div id="my-cart"
+          class="your-cart col-span-2 bg-white p-2 w-[250px] space-y-3 rounded-t-lg"
         >
           <h2 class="text-[20px] font-semibold mb-3">Your Cart</h2>
-          <div
+          <!-- single cart  -->
+          <!-- <div
             class="single-cart flex justify-between px-3 py-2 bg-[#F0FDF4] rounded-lg"
-          >
+            >
             <div class="cart-content">
               <h2 class="text-[14px] font-semibold">Mango Tree</h2>
-              <p class="text-[16px] font-normal">৳<span>500</span> x 1</p>
+              <p class="text-[16px] font-normal">৳<span class="price">500</span> x 1</p>
             </div>
             <div class="close">
-              <span>X</span>
+              <span id="btn-close" class="cursor-pointer">X</span>
             </div>
-          </div>
+          </div> -->
+          <!-- single cart end  -->
+           <div class="total flex justify-between items-center font-semibold">
+            <p>Total:</p>
+            <div>
+              ৳<span id="total-price">0</span>
+            </div>
+           </div>
         </div>
+        <!-- My Cart Section end  -->
       </div>
     </div>
     <!-- Card Section end  -->
