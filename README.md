@@ -1,6 +1,6 @@
 ### 1) What is the difference between var, let, and const?
 
-var: It is a function scope. We can re-declare and re-assign.
+var: It is a function scope(or global if declared outside a function). We can re-declare and re-assign.
 
 let: It is a block scope. We can not re-declare but we can re-assign.
 
@@ -12,7 +12,7 @@ const: It is a block scope. We can not re-declare and re-assign.
 
 map() - We can return something from it. And we can also create a new array.
 
-forEach() - We can return a new array. It just loops through the array.
+forEach() - We can not return a new array. It just loops through the array.
 
 filter() - We can create a new array with elements that pass a condition. We can return true/false.
 
